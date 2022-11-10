@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jul 11 10:16:17 2022
+# Process ID: 784
+# Log file: C:/Users/Student/Desktop/fibnovi/fib_done/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Student/Desktop/fibnovi/fib_done/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Student/Desktop/fibnovi/fib_done/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports f0]
+endgroup
+set_property package_pin "" [get_ports [list  f1]]
+startgroup
+set_property package_pin F12 [get_ports f0]
+endgroup
+set_property package_pin "" [get_ports [list  f1]]
+startgroup
+set_property package_pin E12 [get_ports f1]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports f2]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports f3]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports f4]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports f5]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports f6]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports f7]
+endgroup
+startgroup
+set_property package_pin U4 [get_ports preskok]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports ps2c]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports ps2d]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports sljedeci]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports start]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports tx]
+endgroup
+save_constraints

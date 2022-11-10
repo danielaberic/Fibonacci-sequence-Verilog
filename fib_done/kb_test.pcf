@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jul 13 13:14:27 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "ps2c" LOCATE = SITE "G14" LEVEL 1;
+COMP "ps2d" LOCATE = SITE "G13" LEVEL 1;
+COMP "sw" LOCATE = SITE "L13" LEVEL 1;
+COMP "tx" LOCATE = SITE "M14" LEVEL 1;
+COMP "start" LOCATE = SITE "K17" LEVEL 1;
+COMP "sljedeci" LOCATE = SITE "D18" LEVEL 1;
+COMP "preskok" LOCATE = SITE "V4" LEVEL 1;
+COMP "dekadski_broj<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "reset" LOCATE = SITE "H13" LEVEL 1;
+COMP "dekadski_broj<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "dekadski_broj<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "dekadski_broj<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "dekadski_broj<4>" LOCATE = SITE "C11" LEVEL 1;
+COMP "dekadski_broj<5>" LOCATE = SITE "D11" LEVEL 1;
+COMP "dekadski_broj<6>" LOCATE = SITE "E9" LEVEL 1;
+COMP "dekadski_broj<7>" LOCATE = SITE "F9" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
